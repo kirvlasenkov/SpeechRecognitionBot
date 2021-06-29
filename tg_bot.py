@@ -18,7 +18,6 @@ def info_log(chat_id, msg):
     logger.setLevel(logging.INFO)
     handler.setLevel(logging.INFO)
     logger.info("{} {}".format(chat_id, msg))
-§
 
 def error_log(chat_id, msg):
     logger.setLevel(logging.ERROR)
