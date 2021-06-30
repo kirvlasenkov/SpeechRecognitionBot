@@ -1,15 +1,15 @@
+import os
+from dotenv import load_dotenv
 
-import json
+# Downloading of environment variables
+dotenv_path = os.path.join(os.path.dirname(__file__), '.env')
+if os.path.exists(dotenv_path):
+    load_dotenv(dotenv_path)
 
-with open("keys.json") as f:
-  keys_dict = json.load(f)
-
-
-
-AIRCLOUD_ACCESS_KEY = keys_dict["AIRCLOUD_ACCESS_KEY"]
-AIRCLOUD_ACCESS_SECRET = keys_dict["AIRCLOUD_ACCESS_SECRET"]
-TELEGRAM_API_TOKEN = keys_dict["TELEGRAM_API_TOKEN"]
-YANDEX_API_KEY = keys_dict["YANDEX_API_KEY"]
+ACRCLOUD_ACCESS_KEY =
+ACRCLOUD_ACCESS_SECRET =
+TELEGRAM_API_TOKEN =
+YANDEX_API_KEY =
 
 AIRCLOUD_HOST = 'eu-west-1.api.acrcloud.com'
 
