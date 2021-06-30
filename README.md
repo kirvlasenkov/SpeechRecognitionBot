@@ -72,7 +72,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]]()
 
 Our project is a Telegram bot with implemented StyleTransfer and SpeechRecognition functions.
 SpeechRecognition was implemented algorithmically using third-party resources such as Yandex and ACRCloud.
@@ -98,7 +98,7 @@ To try our Bot, you just need to click on the link:
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+_For more examples, please refer to the [Documentation]()_
 
 
 
@@ -118,9 +118,9 @@ Contributions are what make the open source community such an amazing place to b
 <!-- CONTACT -->
 ## Contact
 
-Our contacts: [Kirill Vlasenkov](@vlasenckov)
-[Danila Kozlov](https://twitter.com/your_username)
-[Artem Aliev](https://twitter.com/your_username)
-[Daniil Zakurnaev](https://twitter.com/your_username)
+Our contacts: [Kirill Vlasenkov]()
+[Danila Kozlov]()
+[Artem Aliev]()
+[Daniil Zakurnaev]()
 
 Project Link: [https://github.com/vlasenckov/SpeechRecognitionBot/issues](https://github.com/vlasenckov/SpeechRecognitionBot/issues)
