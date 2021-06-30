@@ -18,6 +18,8 @@ YANDEX_ASR_HOST = 'asr.yandex.net'
 YANDEX_ASR_PATH = '/asr_xml'
 CHUNK_SIZE = 1024 ** 2
 
+CHROME_DRIVER_PATH = '/Users/vlasenckov/Desktop/chromedriver'
+
 MUSIC_RECOGNITION = True
 SPEECH_RECOGNITION = True
 
@@ -25,7 +27,7 @@ SUCCESS_MSG = 'success'
 FAIL_MSG = 'fail'
 
 START_MSG = 'Привет! Я готов к работе!'
-HELP_MSG = 'helpppp'
+HELP_MSG = 'Если тебе нужна помощь, то самый лучший способ на данный момент - обратиться к одному из создателей'
 DEFAULT_MODE_MSG = 'Установлен режим по умолчанию. Распознается ' \
                    'сначала музыка, ' \
                        'в случае, если трек не найдет, ' \
@@ -38,8 +40,7 @@ MUSIC_SUCCESS_MSG = ['Песня ', '%s', ' исполнителя ', '%s',
                      '\n', 'Ссылка на Яндекс.Музыку ', '%s']
 SPEECH_FIND_SUCCESS_MSG = 'Ура! Я нашел эти слова в песне/песнях. Вот:\n'
 SPEECH_FIND_FAIL_MSG = 'Я не нашел таких слов в своей базе:( Попробуй еще ' \
-                       'или обратись к моему создателю ' \
-                       'https://vk.com/k_artemkaa'
+                       'или обратись к моему создателю '
 SPEECH_TOO_MANY_FAIL = 'Слишком много треков найдено! Попоробуй точнее или ' \
                        'обратись к моим создателям'
 SPEECH_MODE_MSG = 'Установлен режим распознавания только по голосу.'

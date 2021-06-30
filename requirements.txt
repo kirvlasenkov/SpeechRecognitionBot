@@ -11,4 +11,4 @@ idna~=2.10
 selenium~=3.141.0
 setuptools~=49.2.1
 python-dotenv~=0.18.0
-telebot~=0.0.4
+pyTelegramBotAPI~=3.8.1

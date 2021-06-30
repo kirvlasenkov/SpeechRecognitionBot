@@ -9,6 +9,9 @@ venv
 venv/
 
 .env
+chromedriver
+my_logger.log
+music_file.mp3
 
 # Idea files
 .idea
