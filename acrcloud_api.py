@@ -2,9 +2,9 @@ import config
 from acrcloud.recognizer import ACRCloudRecognizer
 
 configuration = {
-    'host': config.AIRCLOUD_HOST,
-    'access_key': config.AIRCLOUD_ACCESS_KEY,
-    'access_secret': config.AIRCLOUD_ACCESS_SECRET,
+    'host': config.ACRCLOUD_ACCESS_SECRET,
+    'access_key': config.ACRCLOUD_ACCESS_KEY,
+    'access_secret': config.ACRCLOUD_ACCESS_SECRET,
     'timeout': 10
 }
 

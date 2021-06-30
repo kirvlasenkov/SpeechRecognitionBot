@@ -1,0 +1,14 @@
+beautifulsoup4~=4.9.3
+soupsieve~=2.2.1
+pip~=20.2.1
+certifi~=2021.5.30
+chardet~=4.0.0
+requests~=2.25.1
+urllib3~=1.26.6
+pyparsing~=2.4.7
+httplib2~=0.19.1
+idna~=2.10
+selenium~=3.141.0
+setuptools~=49.2.1
+python-dotenv~=0.18.0
+pyTelegramBotAPI~=3.8.1
