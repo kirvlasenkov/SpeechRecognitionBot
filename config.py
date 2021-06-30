@@ -6,13 +6,12 @@ dotenv_path = os.path.join(os.path.dirname(__file__), '.env')
 if os.path.exists(dotenv_path):
     load_dotenv(dotenv_path)
 
-ACRCLOUD_ACCESS_KEY =
-ACRCLOUD_ACCESS_SECRET =
-TELEGRAM_API_TOKEN =
-YANDEX_API_KEY =
+ACRCLOUD_ACCESS_KEY = os.getenv('ACRCLOUD_ACCESS_KEY')
+ACRCLOUD_ACCESS_SECRET = os.getenv('ACRCLOUD_ACCESS_SECRET')
+TELEGRAM_API_TOKEN = os.getenv('TELEGRAM_API_TOKEN')
+YANDEX_API_KEY = os.getenv('YANDEX_API_KEY')
 
-AIRCLOUD_HOST = 'eu-west-1.api.acrcloud.com'
-
+ACRCLOUD_HOST = ' identify-eu-west-1.acrcloud.com'
 AUDIO_PATH = 'music_file.mp3'
 
 YANDEX_ASR_HOST = 'asr.yandex.net'
