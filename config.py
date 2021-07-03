@@ -26,28 +26,28 @@ SPEECH_RECOGNITION = True
 SUCCESS_MSG = 'success'
 FAIL_MSG = 'fail'
 
-START_MSG = 'Привет! Я готов к работе!'
-HELP_MSG = 'Если тебе нужна помощь, то самый лучший способ на данный момент - обратиться к одному из создателей'
-DEFAULT_MODE_MSG = 'Установлен режим по умолчанию. Распознается ' \
-                   'сначала музыка, ' \
-                       'в случае, если трек не найдет, ' \
-                   'запускается распознавание по голосу'
-MUSIC_MODE_MSG = 'Установлен режим распознавания только музыки.\n' \
-                 'Но я все равно могу распознавать аудиофайлы:)'
-MUSIC_FAIL_MSG = 'Видимо, файл слишком короткий, ' \
-                 'или в моей базе данных не нашлось похожей аудиозаписи!'
-MUSIC_SUCCESS_MSG = ['Песня ', '%s', ' исполнителя ', '%s',
-                     '\n', 'Ссылка на Яндекс.Музыку ', '%s']
-SPEECH_FIND_SUCCESS_MSG = 'Ура! Я нашел эти слова в песне/песнях. Вот:\n'
-SPEECH_FIND_FAIL_MSG = 'Я не нашел таких слов в своей базе:( Попробуй еще ' \
-                       'или обратись к моему создателю '
-SPEECH_TOO_MANY_FAIL = 'Слишком много треков найдено! Попоробуй точнее или ' \
-                       'обратись к моим создателям'
-SPEECH_MODE_MSG = 'Установлен режим распознавания только по голосу.'
-SPEECH_RECOGNITION_START_MSG = 'Перехожу к распознаванию голоса!'
-SPEECH_SUCCESS_MSG = ['Ты наговорил мне:\n', '"', '%s', '"', '\n',
-                      'Сейчас я поищу это у себя в базе!']
-SPEECH_FAIL_MSG = 'Я не смог распознать это сообщение:('
+START_MSG = 'Hey! I аm ready to go!'
+HELP_MSG = 'If you need help, the best way at the moment is to contact one of the creators.'
+DEFAULT_MODE_MSG = 'The default mode is set. Recognized ' \
+                   'music first, ' \
+                       'in case the track is not found, ' \
+                   'voice recognition starts'
+MUSIC_MODE_MSG = 'Music-only recognition mode is set.\n' \
+                 'But I can still recognize audio files'
+MUSIC_FAIL_MSG = 'Apparently the file is too short, ' \
+                 'or no similar audio was found in my database!'
+MUSIC_SUCCESS_MSG = ['Song ', '%s', ' performer ', '%s',
+                     '\n', 'Link to Yandex.Music ', '%s']
+SPEECH_FIND_SUCCESS_MSG = 'Hooray! I found these words in song / songs. Here is:\n'
+SPEECH_FIND_FAIL_MSG = 'I didn’t find such words in my database. Try again ' \
+                       'or contact my creator '
+SPEECH_TOO_MANY_FAIL = 'Too many tracks found! Try to be more precise or ' \
+                       'contact my creators '
+SPEECH_MODE_MSG = 'The voice recognition mode is set.'
+SPEECH_RECOGNITION_START_MSG = 'Moving on to voice recognition!'
+SPEECH_SUCCESS_MSG = ['You told me:\n', '"', '%s', '"', '\n',
+                      'Now I will look for it in my database!']
+SPEECH_FAIL_MSG = 'I was unable to recognize this message.'
 
 YANDEX_MUSIC_MAIN_PAGE = 'https://music.yandex.ru'
 YANDEX_MUSIC_FIND_PAGE = "https://music.yandex.ru/search?text="
